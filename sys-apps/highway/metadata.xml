@@ -6,6 +6,6 @@
 		<name>Tact Yoshida</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">kengo/highway</remote-id>
+		<remote-id type="github">tkengo/highway</remote-id>
 	</upstream>
 </pkgmetadata>

@@ -7,8 +7,8 @@ EAPI=6
 inherit autotools
 
 DESCRIPTION="High performance source code search tool"
-HOMEPAGE="https://github.com/kengo/highway"
-SRC_URI="https://github.com/kengo/highway/archive/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/tkengo/highway"
+SRC_URI="https://github.com/tkengo/highway/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

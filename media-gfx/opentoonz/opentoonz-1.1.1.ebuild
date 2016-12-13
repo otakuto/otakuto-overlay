@@ -6,7 +6,7 @@ EAPI=6
 
 inherit cmake-utils
 
-DESCRIPTION="An open-source full-featured 2D animation creation softwaee"
+DESCRIPTION="An open-source full-featured 2D animation creation software"
 HOMEPAGE="https://github.com/opentoonz/opentoonz"
 SRC_URI="https://github.com/opentoonz/opentoonz/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 

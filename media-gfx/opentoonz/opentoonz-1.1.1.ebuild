@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDPEND="
+RDEPEND="
 	>=boost-1.55.0:=
 	>=cmake-3.4.1:=
 	qtcore:5=
@@ -35,9 +35,7 @@ RDPEND="
 	sci-libs/blas-reference:=
 	virtual/libusb:1=
 "
-DPEND="
-	$RDPEND
-"
+DPEND="$RDEPEND"
 
 CMAKE_USE_DIR="${S}"/toonz/sources
 

@@ -16,14 +16,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="
-	>=boost-1.55.0:=
-	>=cmake-3.4.1:=
-	qtcore:5=
-	qtgui:5=
-	qtsvg:5=
-	qtscript:5=
-	qtmultimedia:5=
+	>=dev-libs/boost-1.55.0:=
+	>=dev-util/cmake-3.4.1:=
 	>=sci-libs/superlu-4.1:=
+	sci-libs/blas-reference:=
+	dev-qt/qtcore:5=
+	dev-qt/qtgui:5=
+	dev-qt/qtsvg:5=
+	dev-qt/qtscript:5=
+	dev-qt/qtmultimedia:5=
 	dev-libs/lzo:2=
 	app-arch/lz4:=
 	media-libs/libpng:=
@@ -32,7 +33,6 @@ RDEPEND="
 	media-libs/freetype:2=
 	media-libs/freeglut:=
 	media-libs/libsdl2:=
-	sci-libs/blas-reference:=
 	virtual/libusb:1=
 "
 DPEND="$RDEPEND"
